@@ -465,17 +465,17 @@ body {
   margin: 0 auto;
 }
 
-.about-item {
+.about-list__item {
   margin-right: 30px;
   width: 270px;
   height: 120px;
 }
 
-.about-item:last-child {
+.about-list__item:last-child {
   margin-right: 0;
 }
 
-.about-title {
+.about__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -485,7 +485,7 @@ body {
   color: var(--main-title-color);
 }
 
-.about-text {
+.about__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -494,13 +494,13 @@ body {
   color: var(--main-text-color);
 }
 
-.about-icon {
+.about-list__icon {
   display: block;
   width: 70px;
   height: 70px;
 }
 
-.about-bg-icon {
+.about-list__bg-icon {
   display: flex;
   justify-content: center;
   align-items: center;
