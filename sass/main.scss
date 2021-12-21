@@ -1,3 +1,16 @@
+@import './utils/vars';
+@import './base/reset';
+@import './utils/hidden';
+@import './base/common';
+
+
+@import './components/container';
+@import './components/section';
+@import './components/btn';
+@import './components/modal';
+
+
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/about';
@@ -5,5 +18,4 @@
 @import './layout/team';
 @import './layout/client';
 @import './layout/gallary';
-@import './layout/modal';
 @import './layout/footer';

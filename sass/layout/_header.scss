@@ -40,10 +40,9 @@
     color: #000000;
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-nav-logotyp:hover {
-    color: var(--main-hover-color);
+    &:hover {
+        color: var(--main-hover-color);
+    }
 }
 
 .header-nav-list {
@@ -61,14 +60,17 @@
     color: var(--main-title-color);
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--main-hover-color);
+    }
 }
 
 .header-nav-item {
     padding-right: 50px;
-}
-
-.header-nav-item:last-child {
-    padding-right: 305px;
+    &:last-child {
+        padding-right: 305px;
+    }
 }
 
 .header-link {
@@ -81,27 +83,20 @@
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
-}
-
-.header-link:hover,
-.header-link:focus {
-    color: var(--main-hover-color);
-}
-
-.header-nav-link:hover,
-.header-nav-link:focus {
-    color: var(--main-hover-color);
-}
-
-.header-link.current::after {
-    content: '';
-    width: 100%;
-    height: 4px;
-    background-color: var(--main-hover-color);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: -32px;
+    &:hover,
+    &:focus {
+        color: var(--main-hover-color);
+    }
+    &.current::after {
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: var(--main-hover-color);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -32px;
+    }
 }
 
 .header-contact {
@@ -130,10 +125,13 @@
     margin-right: 30px;
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-tel:last-child {
-    margin-right: 0;
+    &:hover,
+    &:focus {
+        color: var(--main-hover-color);
+    }
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .header-social-icon {
@@ -148,14 +146,4 @@
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
-}
-
-.header-mail:hover,
-.header-mail:focus {
-    color: var(--main-hover-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--main-hover-color);
 }
