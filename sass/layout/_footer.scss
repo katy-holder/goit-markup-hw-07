@@ -8,12 +8,12 @@
     display: flex;
 }
 
-.footer-list {
+.footer__list {
     padding-left: 0;
     margin: 0 auto;
 }
 
-.footer-item {
+.footer__list-item {
     margin-top: 9px;
     &:first-child {
         margin-top: 20px;
@@ -23,7 +23,7 @@
         }
 }
 
-.footer-logo {
+.footer__left-logo {
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,7 @@
     color: var(--main-hover-color);
 }
 
-.footer-logotyp {
+.footer__left-logotyp {
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +49,7 @@
     }
 }
 
-.footer-nav-link {
+.footer__list-nav-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -64,7 +64,7 @@
     }
 }
 
-.footer-mail {
+.footer__list-mail {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -79,7 +79,7 @@
     }
 }
 
-.footer-tel {
+.footer__list-tel {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -94,12 +94,12 @@
     }
 }
 
-.footer-nav {
+.footer__nav {
     margin-left: 70px;
     box-sizing: inherit;
 }
 
-.footer-title {
+.footer__nav-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -110,7 +110,7 @@
     margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer__nav-social-list {
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -118,17 +118,17 @@
     margin-bottom: 0;
 }
 
-.footer-social-item {
+.social__item {
     width: 44px;
     height: 44px;
 }
 
-.footer-social-item + .footer-social-item {
+.social__item + .social__item {
     margin-left: 10px;
 }
 
 
-.footer-social-link {
+.social__link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -151,11 +151,11 @@
     }
 }
 
-.footer-social-icon {
+.social__icon {
     fill: var(--main-btn-color);
 }
 
-.footer-right-titel {
+.footer__right-titel {
     width: 219px;
     font-style: normal;
     font-weight: 700;
@@ -169,11 +169,11 @@
     margin-bottom: 0;
 }
 
-.footer-form-icon {
+.footer__right-form-icon {
     display: flex;
 }
 
-.footer-right-input {
+.footer__right-input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -184,9 +184,6 @@
     background-color: transparent;
     margin-left: 93px;
     margin-top: 20px;
-}
-
-.footer-right-input {
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -210,7 +207,6 @@
         color: rgba(255, 255, 255, 0.6);
 
     }
-   
 }
 
 .footer-btn {
