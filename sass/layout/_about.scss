@@ -6,13 +6,13 @@
     height: 251px;
 }
 
-.section-about__list {
+.about-list {
     display: flex;
     padding-left: 0;
     margin: 0 auto;
 }
 
-.section-about__item {
+.about-list__item {
     margin-right: 30px;
     width: 270px;
     height: 120px;
@@ -22,7 +22,7 @@
     }
 }
 
-.section-about__title {
+.about-list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +32,7 @@
     color: var(--main-title-color);
 }
 
-.section-about__text {
+.about-list__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -41,13 +41,13 @@
     color: var(--main-text-color);
 }
 
-.section-about__icon {
+.about-list__icon {
     display: block;
     width: 70px;
     height: 70px;
 }
 
-.section-about__bg-icon {
+.about-list__bg-icon {
     display: flex;
     justify-content: center;
     align-items: center;
