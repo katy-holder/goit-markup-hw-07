@@ -451,7 +451,7 @@ body {
   color: var(--main-btn-color);
 }
 
-.section-about {
+.section__about {
   padding-top: 94px;
 }
 
@@ -459,19 +459,19 @@ body {
   height: 251px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   padding-left: 0;
   margin: 0 auto;
 }
 
-.about-list__item {
+.about__list-item {
   margin-right: 30px;
   width: 270px;
   height: 120px;
 }
 
-.about-list__item:last-child {
+.about__list-item:last-child {
   margin-right: 0;
 }
 
@@ -494,13 +494,13 @@ body {
   color: var(--main-text-color);
 }
 
-.about-list__icon {
+.about__list-icon {
   display: block;
   width: 70px;
   height: 70px;
 }
 
-.about-list__bg-icon {
+.about__list-bg-icon {
   display: flex;
   justify-content: center;
   align-items: center;
