@@ -512,7 +512,7 @@ body {
   margin-bottom: 30px;
 }
 
-.work__title {
+.section-work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -523,7 +523,7 @@ body {
   margin-bottom: 50px;
 }
 
-.work__list {
+.section-work__list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -532,18 +532,18 @@ body {
   padding-left: 0;
 }
 
-.work__list-item {
+.section-work__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.work__list-text {
+.section-work__text {
   position: relative;
   width: 100%;
 }
 
-.work__list-btm-text {
+.section-work__btm-text {
   position: absolute;
   bottom: 0;
   margin: 0 auto;
