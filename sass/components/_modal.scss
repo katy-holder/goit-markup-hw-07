@@ -42,7 +42,7 @@
     justify-content: center;
 }
 
-.modal__close-icon {
+.modal__icon {
     transition: fill 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
@@ -66,7 +66,7 @@
     margin-bottom: 12px;
 }
 
-.modal__form-input {
+.modal-form__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -80,12 +80,12 @@
     &:focus {
         border-color: var(--main-hover-color);
     }
-    &:focus + .modal-input-icon {
+    &:focus+.modal-form__input-icon {
         fill: var(--main-hover-color);
     }
 }
 
-.modal__form-input-text {
+.modal-form__input-text {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -96,15 +96,15 @@
     margin-bottom: 4px;
 }
 
-.modal__form-field {
+.modal-form__field {
     margin-bottom: 10px;
 }
 
-.modal__form-field-last {
+.modal-form__field-last {
     margin-bottom: 0;
 }
 
-.modal__form-input-comment {
+.modal-form__input-comment {
     width: 100%;
     min-height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -126,7 +126,7 @@
     }
 }
 
-.modal-input-icon {
+.modal-form__input-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -136,16 +136,16 @@
 }
 
 
-.modal__form-input-wrap {
+.modal-form__input-wrap {
     position: relative;
 }
 
-.modal__form-checkbox {
+.modal-form__checkboxs {
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.modal__checkbox-text {
+.modal-form__checkbox-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -181,15 +181,15 @@
     }
 }
 
-.modal__checkbox:checked + .modal__checkbox-text::after {
+.modal-form__checkboxs:checked + .modal-form__checkboxs::after {
     transform: translateX(17px);
     background-color: var(--main-hover-color);
 }
 
-.modal__checkbox:checked + .modal__checkbox-text::before {
+.modal-form__checkboxs:checked + .modal-form__checkbox-text::before {
     background-color: var(--main-color-icon);
 }
 
-.modal__link {
+.modal-form__link {
     color: var(--main-hover-color);
 }
