@@ -1,4 +1,4 @@
-.section__about {
+.section-about {
     padding-top: 94px;
 }
 
@@ -6,13 +6,13 @@
     height: 251px;
 }
 
-.about__list {
+.section-about__list {
     display: flex;
     padding-left: 0;
     margin: 0 auto;
 }
 
-.about__list-item {
+.section-about__item {
     margin-right: 30px;
     width: 270px;
     height: 120px;
@@ -22,7 +22,7 @@
     }
 }
 
-.about__title {
+.section-about__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +32,7 @@
     color: var(--main-title-color);
 }
 
-.about__text {
+.section-about__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -41,13 +41,13 @@
     color: var(--main-text-color);
 }
 
-.about__list-icon {
+.section-about__icon {
     display: block;
     width: 70px;
     height: 70px;
 }
 
-.about__list-bg-icon {
+.section-about__bg-icon {
     display: flex;
     justify-content: center;
     align-items: center;
