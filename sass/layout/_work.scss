@@ -9,7 +9,7 @@
     margin-bottom: 50px;
 }
 
-.section-work__list {
+.work-list {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
@@ -18,18 +18,18 @@
     padding-left: 0;
 }
 
-.section-work__item {
+.work-list__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.section-work__text {
+.work-list__text {
     position: relative;
     width: 100%;
 }
 
-.section-work__btm-text {
+.work-list__btm-text {
     position: absolute;
     bottom: 0;
     margin: 0 auto;
