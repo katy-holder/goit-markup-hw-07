@@ -630,22 +630,22 @@ body {
   margin-bottom: 16px;
 }
 
-.socials {
+.social {
   display: flex;
   justify-content: center;
   padding-left: 0;
 }
 
-.socials__item {
+.social__item {
   width: 44px;
   height: 44px;
 }
 
-.socials__item + .socials__item {
+.social__item + .social__item {
   margin-left: 10px;
 }
 
-.socials__link {
+.social__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -655,14 +655,14 @@ body {
   color: var(--main-color-icon);
 }
 
-.socials__icon {
+.social__icon {
   fill: currentColor;
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials__link:hover,
-.socials__link:focus {
+.social__link:hover,
+.social__link:focus {
   background-color: var(--main-hover-color);
   color: var(--main-btn-color);
 }
